@@ -27,6 +27,7 @@ const TabComponent = () => {
           <Tabs
             value={value}
             onChange={handleChange}
+            variant="scrollable"
             aria-label="basic tabs example"
             TabIndicatorProps={{ sx: { backgroundColor: "transparent" } }}
           >
